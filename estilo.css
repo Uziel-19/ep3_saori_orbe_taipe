@@ -1,0 +1,132 @@
+#fondo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -10;
+}
+
+#menu {
+  list-style-type: none;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu li {
+  margin: 2px
+}
+
+#menu li a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: burlywood;
+  color: blueviolet;
+  border-radius: 5px;
+}
+
+#presentación {
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#redes_sociales {
+  width: 93%;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 30px;
+  margin: 10px;
+  background-color: burlywood;
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#estructura_base {
+  width: 98%;
+  margin: auto;
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: beige;
+}
+
+#estructura_base img {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+
+}
+
+h1 {
+  list-style-type: none;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2px
+}
+
+#blog h2 {
+  list-style-type: none;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2px
+}
+
+#Galeria_gatitos {
+  width: 100%;
+  margin: auto;
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: beige;
+}
+
+#gatitos_rescatados {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#gatitos_rescatados div {
+  width: 48%;
+  padding: 10px;
+  position: relative;
+}
+
+#sa {
+  list-style-type: none;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2px
+}
+
+#videos {
+  text-align: center;
+}
+
+#redes_sociales a{
+  font-size: 20px;
+  text-decoration: none;
+  margin: 50px;
+}
+#caja_grande {
+  background-color: burlywood;
+
+}

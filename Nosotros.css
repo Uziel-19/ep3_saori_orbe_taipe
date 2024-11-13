@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#fondo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -10;
+}
+
+#menu {
+  list-style-type: none;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#menu li {
+  margin: 2px
+}
+
+#menu li a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: burlywood;
+  color: blueviolet;
+  border-radius: 5px;
+}
+
+#presentación {
+  width: 800px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#pie_de_pagina {
+  width: 98%;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 30px;
+  margin: 10px;
+  background-color: burlywood;
+  text-align: center;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#Inicio_nosotros {
+  width: 98%;
+  margin: auto;
+  border: 1px solid gray;
+  padding: 10px;
+  background-color: beige;
+  flex-wrap: wrap;
+
+}
+
+#imagen_de_info img {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  width: 49%;
+  padding: 10px;
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+h1 {
+  list-style-type: none;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2px
+}
+
+#nosotros_capsula h2 {
+  list-style-type: none;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  flex-wrap: wrap;
+}
+
+#redes_sociales a {
+  font-size: 20px;
+  text-decoration: none;
+  margin: 50px;
+}
+
+#caja_grande {
+  background-color: burlywood;
+
+}
+
+hr {
+  border: 1px dotted burlywood;
+}
+
+#informacion {
+  display: flex;
+  justify-content: space-between;
+}
+
+#publicidad {
+  /* border: 1px solid black; */
+  width: 100%;
+  right: 0;
+  top: 0;
+  height: 570px;
+}
+
+#publicidad img {
+  width: 100%;
+  padding-left: 20px;
+  height: 100%;
+}
